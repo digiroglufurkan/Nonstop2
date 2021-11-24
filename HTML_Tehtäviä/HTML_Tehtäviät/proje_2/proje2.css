@@ -1,0 +1,36 @@
+
+
+main{
+  width: auto;
+  height: auto;
+}
+h1{
+  margin-left: 12%;
+}
+figure{
+text-align:  center;
+
+}
+figcaption
+{
+  width: auto;
+  height: auto;
+position: absolute;
+left: 12%;
+color: #525252;
+}
+#kuva{
+width:  80%;
+height: 80%
+}
+#tribute-link{
+  font-size: 25px;
+  text-decoration-style: solid;
+  text-decoration:none;
+  color: #525252;
+}
+#tribute-info{
+  position: absolute;
+  left: 12%;
+  width: 70%;
+}

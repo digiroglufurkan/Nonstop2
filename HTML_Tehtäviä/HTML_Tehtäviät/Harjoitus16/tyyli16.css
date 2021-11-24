@@ -1,0 +1,49 @@
+h1 {
+  color:  green;
+}
+h2{
+  font-family: "Comic Sans MS", sans-serif;
+}
+
+#p1{
+  font-family:cursive;
+}
+#p2{
+font-family: fantasy;
+}
+#p3{
+font-family: monospace;
+}
+#p4{
+font-family: sans-serif;
+}
+#p5{
+  font-family: sans-serif;
+}
+#green1{
+  color: green;
+float:left;
+}
+#green2{
+
+  color: #d0dab7;
+  float:left;
+}
+#blue1{
+  color: #b7cfda;
+  float: left;
+}
+#blue2
+{
+color: #1776a2;
+float: left;
+}
+#yellow1
+{
+  color: #f6f45a;
+  float: left;
+}
+#yellow2{
+color: #e3e00e;
+float: left;
+}

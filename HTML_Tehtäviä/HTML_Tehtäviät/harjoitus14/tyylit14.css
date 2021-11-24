@@ -1,0 +1,18 @@
+
+table, th, td  {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 30%;
+  text-align: left;
+}
+#th1{
+  background-color: #F00000;
+  color: white;
+  te
+}
+#tr1{
+  background-color: #FFF000;
+}
+#tr2{
+  background-color: #FFF0AB;
+}

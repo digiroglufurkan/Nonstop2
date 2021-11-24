@@ -1,0 +1,125 @@
+
+
+@media only screen and (min-width: 1001px) {
+  #div1{
+    text-align: center;
+    width: 100%;
+  }
+  hr{
+    background-color: #5DADE2;
+     border: 0 none;
+     color: #eee;
+     height: 3px;
+  }
+  h2{
+    float:left;
+    margin: auto;
+  }
+  #img1{
+    float: left;
+  }
+  #p1{
+  float: left;
+  margin: auto;
+  }
+  #div2{
+   width: 60%;
+   float: left;
+  }
+  #div3{
+    width: 39%;
+    float: left;
+     margin-bottom: 20px;
+  }
+  #img2{
+    float: right;
+  }
+
+  #div4{
+    width: 100%;
+  }
+  }
+@media only screen and (min-width: 751px) and (max-width: 1001px) {
+    #div1{
+      text-align: center;
+      width: 100%;
+    }
+    hr{
+      background-color: #5DADE2;
+       border: 0 none;
+       color: #eee;
+       height: 3px;
+    }
+    h2{
+      float:left;
+      margin: auto;
+    }
+    #img1{
+      float: left;
+    }
+    #p1{
+    float: left;
+    margin: auto;
+    }
+    #div2{
+     width: 60%;
+  margin-bottom: 20px;
+    }
+    #div3{
+      width: 39%;
+      margin-bottom: 10px;
+    }
+    #img2{
+
+    }
+    #div4{
+      margin-top: auto;
+      width: 100%;
+    }
+    }
+@media only screen  and (max-width: 751px) {
+    #div1{
+      text-align: center;
+      width: 100%;
+    }
+
+    p
+    {
+     background-color: #D5DBDB ;
+    }
+     hr{
+      background-color: #5DADE2;
+       border: 0 none;
+       color: #eee;
+       height: 3px;
+     }
+     h2{
+      float:left;
+      margin: auto;
+      }
+      #img1{
+      float: left;
+      }
+      #p1{
+      float: left;
+      margin: auto;
+      }
+      #div2{
+
+       width: 60%;
+    margin-bottom: 20px;
+      }
+      #div3{
+
+        width: 39%;
+        margin-bottom: 10px;
+      }
+      #img2{
+
+      }
+      #div4{
+
+        margin-top: auto;
+        width: 100%;
+      }
+      }
