@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="tyylit.css">
+    <script type="text/javascript" src="koodi3.js"></script>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div class="sagsol">
+      <div style="background: #F8B760;">
+        <h1>Tehtävä1</h1>
+        <p>Tee ohjelma, joka pyytää käyttäjältä parillista lukua ja tulostaa tämän jälkeen kaikki parilliset luvut siihen asti poislukien 0:n </p>
+        <label for="">Anna parillinen luku </label>
+        <input type="text" name="" value="" id="teh1input"><br>
+        <button type="button" name="button1" onclick="teh1function()"> Tulosta parilliset</button>
+        <p class="tulos" id="teh1tulos"></p>
+      </div>
+      <div class="" style="background: #D5613A;">
+        <h1>Tehtävä2</h1>
+        <p>Kirjoita ohjelma, joka muuntaa käyttäjän antaman sanan salasanaksi siten,
+          että laittaa joka toiseksi kirjaimeksi ison Ö-kirjaimen, eli jos sana on Kaappi --> KÖaÖaÖpÖpÖiÖ</p>
+       <label for="">Anna sana</label><input type="text" name="" value="" id="teh2input"><br>
+       <button type="button" name="button2" onclick="teh2function()">Muuntaa salasanaksi</button>
+       <p class="tulos" id="teh2tulos"></p>
+      </div>
+      <div class=""  style="background: #CECB24;" >
+        <h1>Tehtävä3</h1>
+        <p>Kirjoita ohjelma, joka tarkastaa, onko antamassasi sanassa ö-kirjainta ja kirjoittaa vastaukseksi joko: on tai ei ole</p>
+        <label for="">Anna sana:</label><input type="text" name="" value="" id="teh3input"><br>
+        <button type="button" name="button3" onclick="teh3function()"> Tarkastaa</button>
+        <p class="tulos" id="teh3tulos"></p>
+      </div>
+      <div class="" style="background: #A0C080;">
+        <h1>Tehtävä 4</h1>
+        <p>Kirjoita ohjelma, joka laskee annetun luvun kertoman(esim: 4 -> 4*3*2*1 = 24)</p>
+      <label for="">Anna luku, josta lasketaan kertoma: </label>
+      <input type="text" name=""value="" id="teh4input"><br>
+      <button type="button" name="button4" onclick="teh4function()">Laske kertoma</button>
+      <p class="tulos" id="teh4tulos"></p>
+      </div>
+      <div class="" style="background: #46FAE1;">
+        <h1>Tehtävä 5</h1>
+        <p>Kirjoita ohjelma, joka tulostaa näytölle luvut 1-100, kuitenkin siten,
+          että jos luku on 3:lla jaollinen,
+          tulostetaan hip ja viidellä jaollinen tulostetaan heijaa ja jos sekä viidellä että kolmella
+          jaollinen, tulostetaan hipheijaa</p>
+          <br>
+          <button type="button" name="button" onclick="teh5function()">Tulosta </button>
+          <p  class="tulos" id="teh5tulos"></p>
+      </div>
+      <div class="" style="background: #F7C13F;">
+        <h1>Tehtävä 6 </h1>
+        <p>Kirjoita ohjelma, joka tulostaa 10 ensimmäistä numeroa</p>
+        <button type="button" name="button" onclick="teh6function()"> 10 ensimmäistä</button>
+        <p id="teh6tulos"></p>
+      </div>
+   </div>
+    <div  class= "sagsol" >
+      <div class="" style="background: #8BF0BB;">
+      <h1> Tehtävä 7 </h1>
+        <p>Kirjoita ohjelma, joka laskee 10 ensimmäistä numeroa yhteen</p>
+        <button type="button" name="button" onclick="teh7function()">Laske 10 ens. yhteen</button>
+        <p class="tulos" id="teh7tulos"></p>
+    </div>
+    <div class="" style="background: #8F7398;">
+      <h1>Tehtävä 8</h1>
+      <p>Kirjoita ohjelma, joka kysyy käyttäjältä kahta lukua ja laskee ensimmäisen potenssiin
+        toinen esim. 5 ja 2  = 25</p>
+        <label for="">Anna korotettava luku:</label><input type="text" name="" value="" id="teh8input1"><br>
+        <label for="">Anna potenssi:</label><input type="text" name="" value="" id="teh8input2"><br>
+        <button type="button" name="button" onclick="teh8function()"> Laske</button>
+        <p class="tulos" id="teh8tulos"></p>
+    </div>
+    <div class="" style="background: #3F7DF7;">
+      <h1>Tehtävä 9</h1>
+      <p>Kirjoita ohjelma, joka etsii annetusta luvuista suurimman ja pienimmän arvon</p>
+      <label for="">Anna 1. luku: </label> <input type="text" name="" value="" id="teh9input1"> <br>
+      <label for="">Anna 2. luku: </label> <input type="text" name="" value="" id="teh9input2">  <br>
+      <label for="">Anna 3. luku: </label> <input type="text" name="" value="" id="teh9input3"> <br>
+      <label for="">Anna 4. luku: </label> <input type="text" name="" value="" id="teh9input4"> <br>
+      <label for="">Anna 5. luku: </label> <input type="text" name="" value="" id="teh9input5"> <br>
+      <button type="button" name="button" onclick="teh9function()">Etsi suurin ja pienin</button>
+      <p  class="tulos"id="teh9tulos"></p>
+    </div>
+    <div class="" style="background: #F3F649;">
+      <h1>Tehtävä 10</h1>
+      <p>Muokataan salasalatehtävää siten, että se arpoo kirjaimen Ö:n sijasta</p>
+      <label for="">Anna muokattava salasana:</label><input type="text" name="" value="" id="teh10input"> <br>
+      <button type="button" name="button" onclick="teh10function()">Muunna salasanaksi</button>
+      <p class="tulos" id="teh10tulos"></p>
+    </div>
+    <div class="" style="background: #80F626;">
+      <h1>Tehtävä 11</h1>
+      <p>Tee ohjelma, joka pyytää käyttäjältä kahta numeroa (jälkimmäisen tulee olla isompi) ja tulostaa
+        tuolla välillä parilliset ja parittomat numerot sekä niiden summat</p>
+        <label for="">Anna pienempi numero: </label> <input type="text" name="" value="" id="teh11input1"><br>
+        <label for="">Anna isompi numero: </label><input type="text" name="" value="" id="teh11input2"><br>
+        <button type="button" name="button" onclick="teh11function()"> Näytä parilliset ja parittomat erikseen sekä niiiden Summa</button>
+        <p class="tulos" id="teh11tulos"></p> <br>
+
+    </div>
+    </div>
+  </body>
+</html>

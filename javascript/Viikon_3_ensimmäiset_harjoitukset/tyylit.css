@@ -1,0 +1,33 @@
+body
+{
+  width: 100%;
+  height: 100%;
+  padding-left: 10%;
+  background-color: #8B7F80;
+}
+
+.sagsol
+{
+  background-color: #D0EBFB;
+  float: left;
+  width: 40%;
+  height: auto;
+}
+
+h1{
+  text-align: center;
+}
+label, input
+{
+  margin: 5px;
+}
+button
+{
+  margin-left: 5px ;
+  margin-bottom: 5px;
+}
+.tulos
+{
+  color: #531016;
+  width: 35%;
+}

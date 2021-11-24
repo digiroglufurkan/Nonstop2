@@ -1,0 +1,43 @@
+body
+{
+
+  background-color: #DBDEC2;
+  padding-left: 10%;
+  padding-top: 10%;
+}
+
+h1{
+  text-align: center;
+  color: #A2EA3A;
+}
+label,input
+{
+  margin: 5px;
+}
+div
+{
+  padding-left: 10px;
+  background: #ffffff;
+  float: left;
+  margin : 10px;
+  height: 30%;
+  width: 40%;
+}
+
+button
+{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #C8EAFE;
+  float: left;
+}
+
+select{
+  margin: 10px;
+}
+
+p {
+    margin: 10px;
+    float: left;
+    color: #A21207;
+}

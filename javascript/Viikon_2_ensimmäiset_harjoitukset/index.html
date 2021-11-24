@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="tyylit.css">
+    <script type="text/javascript" src="koodi.js"> </script>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div >
+     <h1>Tehtävä 1</h1>
+     <label for="">Anna 1. numero</label>
+     <input type="text" name="" value="" id="numero1"> <br>
+     <label for="">Anna 2. numero</label>
+      <input type="text" name="" value="" id="numero2"><br>
+     <label for="">Anna 3. numero</label>
+      <input type="text" name="" value="" id="numero3"><br>
+      <button type="button" name="button1" onclick ="deneme()">Järjästä luvut</button>
+      <p id="kirjoitus1"></p>
+    </div>
+    <div>
+      <h1>Tehtävä 3</h1>
+    <label for="">Anna numero</label>
+    <input type="text" name="" value="" id="pari1"><br>
+    <button type="button" name="button3" onclick="pari()">Pari tai Pariton</button>
+    <p id="paritulos"></p>
+    </div>
+    <div>
+      <h1>Tehtävä 4</h1>
+      <label for="">Anna Ikä</label>
+      <input type="text" name="" value="" id="ikaa1"><br>
+      <button type="button" name="button4" onclick="ikaa()">Näytä ajanneuvo</button>
+      <p id="ikaa2"></p>
+    </div>
+    <div>
+      <h1>Tehtävä 2 </h1>
+      <label for="">Anna 1. numero</label>
+      <input type="text" name="" value="" id="snumero1"> <br>
+      <label for="">Anna 2. numero</label>
+       <input type="text" name="" value="" id="snumero2"><br>
+      <label for="">Anna 3. numero</label>
+       <input type="text" name="" value="" id="snumero3"><br>
+       <label for="">Anna 4. numero</label>
+        <input type="text" name="" value="" id="snumero4"><br>
+        <label for="">Anna 5. numero</label>
+         <input type="text" name="" value="" id="snumero5"><br>
+       <button type="button" name="button2" onclick="suurii()">Etsi suurin numero</button>
+       <p id="suurinnumero"></p>
+    </div>
+    <div>
+      <h1>Tehtävä 5</h1>
+      <p  style="color: black;">Kirjoita ohjelma, joka kääntää "Hei maailma" - tekstin valitulle kielelle (englanti, ruotsi, espanja)</p>
+      <br> <p style="color: black;">Valitse Kieli</p>
+      <select name="kieli" id="kieli1" onclick="kieli()">
+      <option value="---">-----</option>
+      <option value="Espanja">Espanja</option>
+      <option value="Englanti">Englantia</option>
+      <option value="Turkki">Turkkia</option>
+      <option value="Ruotsi">Ruotsia</option>
+    </select>
+    <br>
+    <p id="kieli2"></p>
+    </div>
+  </body>
+</html>
