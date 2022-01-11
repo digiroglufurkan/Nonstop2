@@ -1,0 +1,36 @@
+body
+{
+
+  background-color: #DBDEC2;
+  padding-left: 10%;
+  padding-top: 10%;
+  width: 100%;
+}
+
+h1{
+  text-align: center;
+  color: #A2EA3A;
+}
+
+div
+{
+  padding-left: 10px;
+  background: #ffffff;
+  float: left;
+  margin : 10px;
+  height: auto;
+  width: 33%;
+}
+
+button
+{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #C8EAFE;
+}
+
+p {
+    margin: 10px;
+    float: left;
+    color: #A21207;
+}
