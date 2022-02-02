@@ -1,36 +1,54 @@
 body
 {
-
   background-color: #DBDEC2;
-  padding-left: 10%;
-  padding-top: 10%;
   width: 100%;
+  text-align: center;
 }
 
 h1{
   text-align: center;
-  color: #A2EA3A;
+  color: #4E7F66;
 }
 
 div
 {
-  padding-left: 10px;
-  background: #ffffff;
   float: left;
-  margin : 10px;
   height: auto;
-  width: 33%;
+  width: 45%;
+  text-align: center;
 }
 
 button
 {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  background-color: #C8EAFE;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: #DDcB9a ;
+  border: none;
+  font-size:2.1em;
 }
 
 p {
-    margin: 10px;
-    float: left;
     color: #A21207;
+    text-align: center;
+}
+#sana{
+    width: 70%;
+    float: left;
+    margin-top: 5%;
+    text-align: center;
+}
+#sana input{
+    width: 7%;
+    padding: 3px;
+    margin: 7px;
+    text-align: center;
+    border: none;
+    border-bottom: 3px solid black;
+    font-size: 25px;
+}
+#nollaa{
+  margin-right: 2%;
+  float: right;
+  color: #81AC9A ;
+  background-color: #DBDEC2;
 }
