@@ -2,16 +2,19 @@
 function teh1function()
 {
 
-
-  let luku = document.getElementById("teh1input").value;
+  let luku = parseInt(document.getElementById("teh1input").value);
   let lukua =[];
-  if(luku%2 == 0 && luku !== "")
+  if(luku%2 == 0 && luku !== "" && luku !== 0)
   {
      for (let i = 0; i <= luku  ; i = i + 2 )
      {
        lukua.push(i);
      }
      return document.getElementById("teh1tulos").innerHTML = lukua;
+  }
+  else if (luku == 0)
+  {
+    return document.getElementById("teh1tulos").innerHTML= "Sytää parilllinen luku ilman 0";
   }
 
   return document.getElementById("teh1tulos").innerHTML= "Sytää parilllinen luku";
@@ -182,5 +185,5 @@ function teh11function()
 
   }
   return document.getElementById("teh11tulos").innerHTML= "Pari lukua: " + lukupari + "<br>" + "Parisumma: " + lukuparisum
-  + "<br>" + "Pariton lukua: " + lukupariton + "<br>" + " Pariton summa: " +lukuparitonsum; 
+  + "<br>" + "Pariton lukua: " + lukupariton + "<br>" + " Pariton summa: " +lukuparitonsum;
 }
