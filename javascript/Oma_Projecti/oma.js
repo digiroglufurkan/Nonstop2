@@ -19,10 +19,8 @@ function initialize() {
         document.getElementById("sana").appendChild(input);
     }
    score = (localStorage.length > 0) ? "<h1>Menneitä Sanoja</h1><br/>" :score;
-   let a =
-    for(var i = localStorage.length; i > 0; i --)
+    for(var i = localStorage.length;  i > 0; i--)
     {
-
      let storesana = localStorage.getItem(i-1);
       score += (storesana[0]==='v')? '<p style="color:green;"><b><u>'+ storesana.substring(1) +"</u></b></p>"
       :'<p style="color:red;"><b><u>'+ storesana.substring(1) +"</u></b></p>";
