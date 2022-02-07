@@ -10,7 +10,7 @@ fetch('text.html')
       dizi =a;
   })
   .catch(eror => console.log(eror));
-  document.getElementById("deneme2").innerHTML= dizi;
+  //document.getElementById("deneme2").innerHTML= dizi;
 }
 
 window.onload = deneme5;
