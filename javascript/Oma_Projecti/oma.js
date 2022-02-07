@@ -3,11 +3,11 @@ var sanat = [],
     kokeilumaara = 0,
     loydetty = 0,
     oikeudetmaara = 7,
-    results = null;
+    score="";
+
 sanat = ["Koira", "Helsinki", "Tikkurilla", "Ohjalmointi", "ville",
 "kotona", "kajani","urheilu", "Sanna", "Turku", "Arvo"];
 function initialize() {
-    results = document.getElementById("results");
     var numero = randomNumber(0, sanat.length);
     sana= sanat[numero].toUpperCase();
 
@@ -18,6 +18,16 @@ function initialize() {
         input.readOnly = true;
         document.getElementById("sana").appendChild(input);
     }
+   score = (localStorage.length > 0) ? "<h1>Menneitä Sanoja</h1><br/>" :score;
+   let a =
+    for(var i = localStorage.length; i > 0; i --)
+    {
+
+     let storesana = localStorage.getItem(i-1);
+      score += (storesana[0]==='v')? '<p style="color:green;"><b><u>'+ storesana.substring(1) +"</u></b></p>"
+      :'<p style="color:red;"><b><u>'+ storesana.substring(1) +"</u></b></p>";
+    }
+    document.getElementById("oikealla").innerHTML= score;
 }
 function tarkista(val) {
         var onko = true;
@@ -31,8 +41,10 @@ function tarkista(val) {
     }
 
     if (loydetty == sana.length) {
+         window.localStorage.setItem(localStorage.length ++, "v"+ sana);
         document.getElementById("tulos").innerHTML = "ONNEA VOITTE !!!";
         return;
+
     }
     document.getElementById(val).disabled= true;
 
@@ -48,6 +60,7 @@ function tarkista(val) {
             for (var i = 0; i < btns.length; i++) {
                 btns[i].disabled = true;
             }
+            window.localStorage.setItem(localStorage.length ++, "p"+ sana);
             document.getElementById("tulos").innerHTML = "Valitettavasti hävisit";
             for (var i = 0; i < sana.length; i++) {
                     document.getElementsByTagName("input")[i].value = sana[i];
